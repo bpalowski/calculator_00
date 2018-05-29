@@ -1,4 +1,4 @@
-/*
+/* functions for add subtract multiply and divide for calculator
 var add = function(number1, number2) {
   return number1 + number2;
 };
@@ -35,6 +35,7 @@ var number2 = parseInt(prompt("Enter another number:"));
 var result = divide(number1, number2);
 alert(result);
 
+/*calculator for bmi
 var bmi = function(number1, number2) {
   return number1 / number2 / number2;
 };
@@ -43,7 +44,9 @@ var number1 = parseInt(prompt("Enter your weight in kilos:"));
 var number2 = parseInt(prompt("Enter your height in meters:"));
 var result = bmi(number1, number2);
 alert(result);
+
 */
+ /*converter between celcius and fahrenheit
 
 var temp = function(number1) {
   return number1 * 1.8 + 32;
@@ -52,3 +55,4 @@ var temp = function(number1) {
 var number1 = parseInt(prompt("Enter temp in celcius:"));
 var result = temp(number1);
 alert(result);
+*/
